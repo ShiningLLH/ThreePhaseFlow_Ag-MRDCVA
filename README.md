@@ -1,4 +1,3 @@
-# ThreePhaseFlow_Ag-MRDCVA
 # Oil-gas-water three-phase flow process monitoring by Ag-MRDCVA
 Source code of Ag-MRDCVA on oil-gas-water three-phase flow dataset.
 The dataset is obtained through multiphase flow experiment at Tianjin Key Laboratory of Process Measurement and Control at Tianjin University.
