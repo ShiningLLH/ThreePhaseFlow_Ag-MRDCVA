@@ -185,7 +185,7 @@ if __name__ == '__main__':
         criterion = torch.nn.L1Loss()
         optimizer1 = torch.optim.Adam(net1.parameters(), lr=learning_rate, betas=(0.9, 0.999))
         optimizer2 = torch.optim.Adam(net2.parameters(), lr=learning_rate, betas=(0.9, 0.999))
-        train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True, drop_last=True)
+        train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=False, drop_last=True)
 
         # 循环训练
         loss_history = []
